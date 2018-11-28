@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html style="background-color: #bdbcbe">
+
+<head>
+	<style>
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #38015d;
+		}
+
+		li {
+			float: left;
+		}
+
+		li a {
+			display: block;
+			color: #bee9e7;
+			text-align: center;
+			padding: 18px;
+			text-decoration: none;
+		}
+
+		li a:hover {
+			background-color: #200658;
+		}
+
+	</style>
+</head>
+
+<body>
+	<h3 style="text-align:center; background-color:rgb(179, 179, 179);">
+		Indeed Scraper Bot
+		| PR02: ETL (EXTRACT-TRANSFORM-LOAD) PROJECT<br>
+		---------------
+		| S. ATTILA TURKOZ - OMER FARUK KURBAN
+	</h3>
+
+	<ul>
+		<li><a href="#home">Home</a></li>
+		<li><a href="#API">API</a></li>
+		<li><a href="#DevToolsModules">DevToolsModules</a></li>
+		<li><a href="#about">About</a></li>
+		<li><a href="#decor">| Data Analytics Bootcamp - University of Denver</a>
+	</ul>
+
+	<pre>
+			Scrape indeed for user defined job title(s) and city/cities
+	</pre>
+
+	<form>
+		- Job Title: <i>(ex: developer, programmer, front+end)</i>
+		<br>
+		<input type="text" title="title"><br>
+		- City: <i> (ex: denver, chicago,san+francisco,austin,lincoln)</i>
+		<br>
+		<input type="text" city="city">
+		<br>
+		<br>
+	</form>
+
+	<table border="4" class="dataframe">
+		<thead>
+			<tr style="text-align: center;background-color: #38015d; color: #ffffff">
+				<th></th>
+				<th>Title</th>
+				<th>Company</th>
+				<th>Location</th>
+			</tr>
+		</thead>
+		<tbody style="text-align: left;background-color: #9b9b9b; color: #000000">
+			<tr>
+				<th>0</th>
+				<td>Front End Developer</td>
+				<td>Accenture</td>
+				<td>Denver, CO</td>
+			</tr>
+			<tr>
+				<th>1</th>
+				<td>UI Developer</td>
+				<td>CGI Group, Inc.</td>
+				<td>Chicago, IL </td>
+			</tr>
+			<tr>
+				<th>2</th>
+				<td>Jr. Application Developer</td>
+				<td>Flexential</td>
+				<td>San Francisco, CA </td>
+			</tr>
+			<tr>
+				<th>3</th>
+				<td>Crestron Programmer</td>
+				<td>Xcite Audiovisuals LLC</td>
+				<td>Austin, TX </td>
+			</tr>
+			<tr>
+				<th>4</th>
+				<td>Front End Developer</td>
+				<td>Bayshore Solutions</td>
+				<td>Lincoln, NE </td>
+			</tr>
+			<tr>
+				<th>5</th>
+				<td>Software Developer Mobile Applications</td>
+				<td>SCRAM Systems</td>
+				<td>Moab, UT </td>
+			</tr>
+			<tr>
+			</tr>
+
+		</tbody>
+	</table>
+	</tbody>
+
+</html>
